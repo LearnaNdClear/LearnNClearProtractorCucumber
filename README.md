@@ -26,4 +26,4 @@ LearnNClear is the organization provide online and offline tutorial for various 
 * If you face any issue in updating the webdriver-manager, check if your system use proxy then add the argument `--proxy=<ProxyURL>:<proxyPort>`
 * run `node -v` and make sure your node version is 6.x.x or greater
 
-To know about us more or need support, [Contact us](http://learnnshine.com/contact-us)
+To know about us more or need supports, [Contact us](http://learnnshine.com/contact-us)
