@@ -5,15 +5,14 @@ LearnNClear is the organization provide online and offline tutorial for various 
 `LearnNClear Protractor Cucumber HTML Report` project that
 * Makes use of page objects
 * Illustrate the Cucumber HTML report on cucumber project with screenshot
-* Embeded with Grunt to run scripts and report generation sequenally
-* Runs tests sharded (parallel)
+* Embedded with Grunt to run scripts and report generation sequentially
 * Includes examples tests for Angular applications
 
 ## Setup:
 * Install [Node](http://nodejs.org) (v6.x.x or later)
 * `git clone https://github.com/vinohkumamahendra/LearnNClearProtractorCucumber`
 * `npm install` to install the project dependencies
-* `npm run update` to update drivers (this _should_ be run automagically on install)
+* `npm run update` to update drivers (this _should_ be run automatically on install)
 
 ## Run tests:
 * run tests via plain Protractor `protractor protractor.conf.js`
