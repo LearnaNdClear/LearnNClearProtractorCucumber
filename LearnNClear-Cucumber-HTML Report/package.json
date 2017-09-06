@@ -1,0 +1,37 @@
+ {
+  "name": "LearnNClear_Cucumber_Protractor",
+  "version": "1.1.0",
+  "description": "An example Protractor cucumber project that makes use of page objects",
+  "engines": {
+    "node": "6.11.2"
+  },
+  "scripts": {
+    "update": "node_modules\\protractor\\node_modules\\.bin\\webdriver-manager update",
+    "test": "protractor protractor.conf.js",
+	"grunt_test": "grunt run_cucumber_pob"
+  },
+  "keywords": [
+    "protractor",
+	"cucumber",
+	"LearnNClear",
+    "page objects",
+    "tests",
+    "automation",
+    "webdriver",
+    "vinoth"
+  ],
+  "author": "Vinoth",
+  "license": "LearnNClear",
+  "dependencies": {
+    "protractor": "5.1.2",
+	"grunt-cli" : "^1.0.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "~3.0.0",	    
+    "cucumber": "~3.0.0",
+	"protractor-cucumber-framework" : "~4.0.0",
+	"grunt-execute" : "~0.2.0",
+	"grunt-protractor-runner" : "^4.0.0",
+	"grunt" : "~0.4.1"
+  }
+}
