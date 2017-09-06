@@ -1,6 +1,7 @@
 
 # LearnNClear Protractor Cucumber
-LearnNClear is the organization provide online and offline tutorial for various automation tool
+LearnNClear is the organization provide online and offline tutorial for various automation tool.
+
 `LearnNClear Protractor Cucumber HTML Report` project that
 * Makes use of page objects
 * Illustrate the Cucumber HTML report on cucumber project with screenshot
