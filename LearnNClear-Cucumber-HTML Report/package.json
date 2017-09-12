@@ -33,6 +33,7 @@
     "grunt-execute": "~0.2.0",
     "grunt-protractor-runner": "^4.0.0",
     "multiple-cucumber-html-reporter": "^0.2.1",
-    "protractor-cucumber-framework": "~4.0.0"
+    "protractor-cucumber-framework": "~4.0.0",
+	"grunt-open" : "~0.2.0"
   }
 }
