@@ -11,7 +11,7 @@ LearnNClear is the organization provide online and offline tutorial for various 
 ## Setup:
 * Install [Node](http://nodejs.org) (v6.x.x or later)
 * `git clone https://github.com/vinohkumamahendra/LearnNClearProtractorCucumber`
-* Go to folder LearnNClearProtractorCucumber
+* Go to folder LearnNClear-Cucumber-HTML Report
 * `npm install` to install the project dependencies
 * `npm run update` to update drivers (this _should_ be run automatically on install)
 
