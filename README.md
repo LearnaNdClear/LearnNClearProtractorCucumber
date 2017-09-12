@@ -18,7 +18,7 @@ LearnNClear is the organization provide online and offline tutorial for various 
 ## Run tests:
 * run tests via plain Protractor `protractor protractor.conf.js`
 * run tests `npm test` (runs via protractor inbuild command)
-* run with grunt using command either `grunt run_cucumber_html` or `grunt`. It will open the html report once completed script for detail report
+* run with grunt using command either `grunt run_cucumber_html` or `grunt`. It automatically launch report.
 * run script with cucumber-html-report by using grunt command `grunt run_cucumber_html2`. You have to check the report `cucumber-html-report.html` under the folder .\reports\html\reports once it is completed
 * run script with multiple-cucumber-html-reporter report by using grunt command `grunt run_cucumber_mutiple_html`. It automatically launch report 
 
