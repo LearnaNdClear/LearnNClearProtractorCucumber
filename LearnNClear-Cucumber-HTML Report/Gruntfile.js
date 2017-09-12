@@ -1,5 +1,3 @@
- //pkg: grunt.file.readJSON('package.json'),
- 
 module.exports = function(grunt) {
   grunt.initConfig({
 	   protractor: {
@@ -16,12 +14,25 @@ module.exports = function(grunt) {
 		  }
     },
     execute: {
-		htmlReport: {
+		htmlReport1: {
 			  options: { 
 						cwd: '.'
 					},
 					src: ['test-cucumber-html-reporter.js']
-				}
+				},
+		htmlReport2: {
+			  options: { 
+						cwd: '.'
+					},
+					src: ['test-cucumber-html-report.js']
+				},		
+		htmlReport3: {
+			  options: { 
+						cwd: '.'
+					},
+					src: ['multiple-cucumber-html-reporter.js']
+				}	
+
 	}
 
 });
@@ -29,6 +40,8 @@ module.exports = function(grunt) {
 grunt.loadNpmTasks('grunt-protractor-runner');
 grunt.loadNpmTasks('grunt-execute');
 
-grunt.registerTask('default', ['protractor:run_cucumber','execute:htmlReport']);
-grunt.registerTask('run_cucumber_pob', ['protractor:run_cucumber','execute:htmlReport']);
+grunt.registerTask('default', ['protractor:run_cucumber','execute:htmlReport1']);
+grunt.registerTask('run_cucumber_html', ['protractor:run_cucumber','execute:htmlReport1']);
+grunt.registerTask('run_cucumber_html2', ['protractor:run_cucumber','execute:htmlReport2']);
+grunt.registerTask('run_cucumber_mutiple_html', ['protractor:run_cucumber','execute:htmlReport3']);
 };
